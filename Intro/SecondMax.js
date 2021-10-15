@@ -5,7 +5,7 @@ if(list.length==1)
 if(list.length==2)
   return Math.min(list[0],list[1])
 else {
-  console.log("Inside the else block") 
+  // console.log("Inside the else block") 
     firstItem=list[0]>list[1]?list[0]:list[1]
     secondItem=list[0]<list[1]?list[0]:list[1]
   
