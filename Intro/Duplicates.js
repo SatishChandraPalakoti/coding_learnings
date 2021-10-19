@@ -13,3 +13,5 @@ primaryArr.forEach((element,index)=>{
   if(index==primaryArr.length-1)
     console.log(duplicates)
 })
+
+// TC- O(n2)

@@ -17,3 +17,5 @@ else {
    }  
     console.log("second largest is", secondItem); 
 }
+
+// O(n)
