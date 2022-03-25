@@ -1,6 +1,7 @@
 //find occurrence of a digit in a number(recursion)
 
 let occurrence = function(number, digit, count=0){
+  
    if(number==0){
       return count+=digit==number?1:0
     }else if (number < 10 && number > 0){
