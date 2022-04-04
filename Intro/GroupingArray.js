@@ -4,9 +4,7 @@ let subSolution2 = function(inArr, index, left, right, leftArr,rightArr){
   // console.log("Left arr", leftArr)
   // console.log("Right arr", rightArr)
   if(inArr.length==index){ 
-    if(left==right){
-    console.log("Left->", leftArr.split('')) 
-    console.log("Right->", rightArr.split('')) 
+    if(left==right){ 
     }
     return left==right
     }else{   
